@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.CSS">
+
+</head>
+
+<body>
+    
+    <nav>
+      <h1 id="logo"><h1>Ian Browne</h1>
+      <ul class="navigation-items">
+        
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="/contact">Contact</a></li>
+       
+      </ul>
+    </nav>
+    
+
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hi! I'm Ian, Countess of Love and am in my imperial phase!! which basicly 
+              means I have the confidence of a much younger man.
+            </p>
+            <p>
+              I am one of the first men to leave the dizzying heights of television for the gray skys of Web development!!
+              I hear the money is good and I am a golden god so it will be ok.
+            </p>
+            <p>
+              In my free time I like to paint models, I will show you some below
+            </p>
+            <p>
+              Fun fact! the 5th of Jan 2030 is in
+              <p id="demo"></p>
+            
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2030").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+
+</p>
+ </div>
+<img src="20240328_122941.jpg" alt="A photo of Ian Browne" class="port">
+</div>
+</section>
+
+      
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            
+          </summary>
+          <img src="20240328_132439.jpg" alt="A model of a Soldier" class="project-image">
+          <h3>A WW2 Japanesse Soldier</h3>
+          This is from the game Blot Action, Ive yet to play it but I like painting.
+          </p>
+          
+
+<h3>What Blot Action Army do you have?.<h3>
+
+  <form action="/action_page.php">
+  <label for="nation">Choose an nation:</label>
+  <select name="nation" id="nation">
+    <option value="usa">USA</option>
+    <option value="japan">Japan</option>
+    <option value="gb">GB</option>
+    <option value="germany">Germany</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+  </form>
+
+  <p>Click the "Submit" to do nothing.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <details class="skill">
+    <summary class="project-title">
+      
+    </summary>
+    <img src="20240328_140302.jpg" alt="A model of a Soldier" class="project-image">
+    <h3>What a Monster drinker</h3>
+    I can drink so many tins of Monster and not shit myself!!.
+    </p>
+    <h1>How many times have you shit yourself today?</h1>
+
+    <form action="/action_page.php">
+      <label for="quantity"></label>
+      <input type="number" id="quantity" name="quantity" min="1" max="5">
+      <input type="submit">
+    </form>
+  </section>
+    
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <details class="Contacts">
+      <summary class="project-title">
+        
+      </summary>
+      <img src="20240328_141613.jpg" alt="The man" class="project-image">
+      <h3>Hire me today!!!!</h3>
+      <h5>for hand jobs</h5>
+      Ian Browne + handJob = joy
+      </p>
+    
+    </section>
+
+
+</body>
+
+</html>
